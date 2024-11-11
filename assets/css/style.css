@@ -4,18 +4,19 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     /* font-family: "Montserrat", sans-serif; */
+    /* font-family: "Sail"; */
+    /* font-family: "Jost", sans-serif; */
   }
 
   /* Top Banner Starts Here */
   .top-banner-bg{
-    background-image: url("../images/example-banner.webp");
+    /* background-image: url("../images/example-banner.webp"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
   }
   .top-banner{
-    padding: 2rem 3rem;
+    padding: 2rem 0;
   }
   
   /* Navbar Styling Starts Here */
@@ -85,7 +86,95 @@
         margin-right: 0;
   }
 }
-  
   /* Navbar Styling Ends Here */
+  
+  /* Banner Content Starts Here */
+  .banner-content{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .banner-content .banner-left{
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content .banner-left h3{
+    font-family: "Sail";
+    color: #666f52;
+    border: 1px solid #666f52;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+  }
+  .banner-content .banner-left h1{
+    font-family: "Sail";
+    color: #000;
+    font-size: 5rem;
+  }
+  .banner-content .banner-left p{
+    font-family: "Jost", sans-serif;
+    color: #5e5e5e;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .banner-content .banner-left img{
+    width: 200px;
+    margin-top: -2rem;
+  }
+  .banner-content .banner-right{
+    width: 58%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
+  .banner-content .banner-rounded-img img{
+    border-radius: 50%;
+    position: absolute;
+  }
+  .banner-content #banner-rounded-img-1{
+    top: 3rem;
+    left: 0;
+    z-index: 5;
+  }
+  .banner-content #banner-rounded-img-2{
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+  }
+  .banner-content .banner-pill-img img{
+    border-top-left-radius: 15rem;
+    border-top-right-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+  }
+  .banner-content .banner-flower img{
+    position: absolute;
+  }
+  .banner-content .banner-flower #banner-flower-1{
+    top: 0;
+    right: -5.8rem;
+    z-index: -1;
+  }
+  .banner-content .banner-flower #banner-flower-2{
+    bottom: -4.8rem;
+    left: -5.9rem;
+  }
+  .banner-content .banner-wave img{
+    position: absolute;
+  }
+  .banner-content .banner-wave #banner-wave-1{
+    top: 8rem;
+    left: 5rem;
+  }
+  .banner-content .banner-wave #banner-wave-2{
+    bottom: 2rem;
+    left: 10rem;
+  }
+
+  /* Banner Content Ends Here */
 
   /* Top Banner Ends Here */
