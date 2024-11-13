@@ -298,7 +298,7 @@
     position: relative;
   }
   .our-story{
-    padding: 7rem 0 15rem 0;
+    padding: 7rem 0 10rem 0;
   }
 
   .our-story #floating-dots{
@@ -315,7 +315,7 @@
   }
   .our-story #white-leaf-2{
     position: absolute;
-    bottom: 5%;
+    bottom: 1%;
     left: 0;
   }
   .our-story #white-leaf-3{
@@ -423,6 +423,34 @@
     left: 7rem;
   }
   /* Our Story Section Ends Here */
+
+  /* Slider Section Starts Here */
+  .slider{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(241,243,238,1) 10%, rgba(255,255,255,0) 100%);
+  }
+  .slider .slider-card{
+    width: 20%;
+    overflow: hidden;
+    position: relative;
+    border: 1rem solid #fff;
+  }
+  .slider .slider-card img{
+    width: 100%;
+  }
+  .slider .slider-card .card-overlay{
+    width: 92%;
+    height: 94%;
+    margin: 4% 4%;
+    background-color: #ffffffb4;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Slider Section Ends Here */
 
 
   /* Impotant Persons Section Start Here */
