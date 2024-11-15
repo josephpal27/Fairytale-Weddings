@@ -25,6 +25,29 @@ gsap.to(["#banner-rounded-img-1","#banner-rounded-img-2"], {
     duration: 1,
 });
 
+// Banner Rounded Images Movement Function
+const body = document.querySelector('body');
+
+// Select only the rounded images
+const roundedImages = document.querySelectorAll(
+  '.banner-right .banner-rounded-img img'
+);
+
+body.addEventListener('mousemove', (e) => {
+  const rect = body.getBoundingClientRect();
+  const mouseX = e.clientX - rect.left; // Mouse X relative to the banner content
+  const mouseY = e.clientY - rect.top;  // Mouse Y relative to the banner content
+
+  // Normalize mouse positions to range between 1 and -1
+  const xOffset = ((mouseX / rect.width) - 0.5) * -12; // Scale movement: 6px to -6px
+  const yOffset = ((mouseY / rect.height) - 0.5) * -6; // Scale movement: 3px to -3px
+
+  // Apply the transformation to each rounded image
+  roundedImages.forEach((img) => {
+    img.style.transform = `translate(${xOffset}px, ${yOffset}px)`;
+  });
+});
+
 // --------------------------------------------------------------------------------------------------------------------------------
 
 // Couple Section Animations
@@ -221,3 +244,7 @@ backToTopButton.addEventListener('click', (e) => {
   e.preventDefault(); // Prevent default jump
   lenis.scrollTo(0); // Smoothly scroll to the top
 });
+
+
+
+
