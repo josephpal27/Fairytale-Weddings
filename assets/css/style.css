@@ -112,14 +112,14 @@
     padding: 1rem 2rem;
     font-size: 3rem;
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(40px);
   }
   .banner-content .banner-left h1{
     font-family: "Sail";
     color: #000;
     font-size: 5rem;
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(40px);
   }
   .banner-content .banner-left p{
     font-family: "Jost", sans-serif;
@@ -127,7 +127,7 @@
     font-size: 1.5rem;
     margin-top: 1rem;
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(40px);
   }
   .banner-content .banner-left img{
     width: 200px;
@@ -159,11 +159,14 @@
     z-index: 5;
     opacity: 0;
   }
-  .banner-content .banner-pill-img img{
+  .banner-content .banner-pill-img{
     border-top-left-radius: 15rem;
     border-top-right-radius: 15rem;
     border-bottom-left-radius: 15rem;
     border-bottom-right-radius: 15rem;
+    overflow: hidden;
+  }
+  .banner-content .banner-pill-img img{
     scale: 1;
   }
   .banner-content .banner-flower img{
@@ -282,7 +285,7 @@
     margin-top: 1rem;
   }
   .couple-desc i{
-    margin: 0 5px;
+    margin: 0 7px;
     color: #666f52;
   }
 
@@ -475,6 +478,7 @@
   /* Impotant Persons Section Start Here */
   .persons{
     padding: 2rem 0;
+    overflow: hidden;
   }
   .persons-head{
     text-align: center;
@@ -795,7 +799,7 @@
     background-color: #667151bb;
     width: 2.6rem;
     height: 2.6rem;
-    padding-top: 9px;
+    padding-top: 9.5px;
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.2s ease-in-out;

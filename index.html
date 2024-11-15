@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- Link to AOS Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Link to Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -89,8 +91,10 @@
                     </div>
 
                     <div class="banner-flower">
-                        <img src="assets/images/flower-1.svg" alt="image" id="banner-flower-1">
-                        <img src="assets/images/flower-2.svg" alt="image" id="banner-flower-2">
+                        <img src="assets/images/flower-1.svg" alt="image" id="banner-flower-1" data-aos="fade-right"
+                            data-aos-duration="1500">
+                        <img src="assets/images/flower-2.svg" alt="image" id="banner-flower-2" data-aos="fade-up"
+                            data-aos-duration="1500">
                     </div>
 
                     <div class="banner-wave">
@@ -154,21 +158,24 @@
         <div class="our-story container-xl">
 
             <img src="assets/images/floating-dots.svg" alt="image" id="floating-dots">
-            <img src="assets/images/white-leaf-1.svg" alt="image" id="white-leaf-1">
-            <img src="assets/images/white-leaf-2.svg" alt="image" id="white-leaf-2">
-            <img src="assets/images/white-leaf-3.svg" alt="image" id="white-leaf-3">
+            <img src="assets/images/white-leaf-1.svg" alt="image" id="white-leaf-1" data-aos="fade-up"
+                data-aos-duration="1000">
+            <img src="assets/images/white-leaf-2.svg" alt="image" id="white-leaf-2" data-aos="fade-right"
+                data-aos-duration="1000">
+            <img src="assets/images/white-leaf-3.svg" alt="image" id="white-leaf-3" data-aos="fade-left"
+                data-aos-duration="1000">
 
             <!-- Story Head -->
             <div class="story-head">
-                <h4>Our Story</h4>
-                <h1>How it Happened</h1>
+                <h4 data-aos="zoom-out" data-aos-duration="1000">Our Story</h4>
+                <h1 data-aos="zoom-in" data-aos-duration="1000">How it Happened</h1>
             </div>
 
             <!-- Story Card 1 -->
             <div class="story-card">
                 <!-- Left -->
                 <div class="story-card-left">
-                    <img src="assets/images/story-card-1.jpg" alt="card-image">
+                    <img src="assets/images/story-card-1.jpg" alt="card-image" data-aos="fade" data-aos-duration="1000">
                 </div>
                 <!-- Right -->
                 <div class="story-card-right">
@@ -178,7 +185,7 @@
                         ipsum placerat.</p>
                     <img src="assets/images/flower.svg" alt="flower">
                     <!-- Note -->
-                    <div class="sticky-note">
+                    <div class="sticky-note" data-aos="fade" data-aos-duration="1000">
                         <div class="note-head"></div>
                         <div class="note-body">
                             <h5>15 June</h5>
@@ -212,7 +219,7 @@
                         ipsum placerat.</p>
                     <img src="assets/images/flower-left.svg" alt="flower">
                     <!-- Note -->
-                    <div class="sticky-note" id="sticky-note-2">
+                    <div class="sticky-note" id="sticky-note-2" data-aos="fade" data-aos-duration="1000">
                         <div class="note-head"></div>
                         <div class="note-body">
                             <h5>15 June</h5>
@@ -223,7 +230,7 @@
                 </div>
                 <!-- Left -->
                 <div class="story-card-left">
-                    <img src="assets/images/story-card-2.jpg" alt="card-image">
+                    <img src="assets/images/story-card-2.jpg" alt="card-image" data-aos="fade" data-aos-duration="1000">
                 </div>
                 <!-- Jointer Rings -->
                 <div class="ring-line">
@@ -244,7 +251,7 @@
             <div class="story-card">
                 <!-- Left -->
                 <div class="story-card-left">
-                    <img src="assets/images/story-card-3.jpg" alt="card-image">
+                    <img src="assets/images/story-card-3.jpg" alt="card-image" data-aos="fade" data-aos-duration="1000">
                 </div>
                 <!-- Right -->
                 <div class="story-card-right">
@@ -254,7 +261,7 @@
                         ipsum placerat.</p>
                     <img src="assets/images/flower.svg" alt="flower">
                     <!-- Note -->
-                    <div class="sticky-note">
+                    <div class="sticky-note" data-aos="fade" data-aos-duration="1000">
                         <div class="note-head"></div>
                         <div class="note-body">
                             <h5>15 June</h5>
@@ -319,20 +326,20 @@
                 <img src="assets/images/plus.png" alt="plus-icon">
             </div>
         </div>
-    </section>   
+    </section>
     <!-- Slider Section Ends Here -->
 
     <!-- Impotant Persons Section Starts Here -->
     <section class="persons container-xl">
         <!-- Head -->
         <div class="persons-head">
-            <h4>Important Persons</h4>
-            <h1>Bridesmaids & Groomsmen</h1>
+            <h4 data-aos="zoom-out" data-aos-duration="1000">Important Persons</h4>
+            <h1 data-aos="zoom-in" data-aos-duration="1000">Bridesmaids & Groomsmen</h1>
         </div>
         <!-- Row -->
         <div class="person-row">
             <!-- Card 1 -->
-            <div class="person-card" id="person-card-1"> 
+            <div class="person-card" id="person-card-1" data-aos="fade-up" data-aos-duration="1000">
                 <div class="person-card-image">
                     <img src="assets/images/person-1.jpg" alt="person-image">
                 </div>
@@ -340,7 +347,7 @@
                 <p>Bridesmaid</p>
             </div>
             <!-- Card 2 -->
-            <div class="person-card" id="person-card-2"> 
+            <div class="person-card" id="person-card-2" data-aos="fade-up" data-aos-duration="1900">
                 <div class="person-card-image">
                     <img src="assets/images/person-2.jpg" alt="person-image">
                 </div>
@@ -348,7 +355,7 @@
                 <p>Groomsmen</p>
             </div>
             <!-- Card 3 -->
-            <div class="person-card" id="person-card-3"> 
+            <div class="person-card" id="person-card-3" data-aos="fade-up" data-aos-duration="1000">
                 <div class="person-card-image">
                     <img src="assets/images/person-3.jpg" alt="person-image">
                 </div>
@@ -356,7 +363,7 @@
                 <p>Bridesmaid</p>
             </div>
             <!-- Card 4 -->
-            <div class="person-card" id="person-card-4"> 
+            <div class="person-card" id="person-card-4" data-aos="fade-up" data-aos-duration="1900">
                 <div class="person-card-image">
                     <img src="assets/images/person-4.jpg" alt="person-image">
                 </div>
@@ -367,44 +374,11 @@
     </section>
     <!-- Impotant Persons Section Ends Here -->
 
-    <!-- Attending Form Section Starts Here -->
-    <!-- <section class="attending-bg">
-        <div class="attending-form">
-            <div class="form-head">
-                <h2>Are You Attending?</h2>
-            </div>
-            <div class="form-body">
-                <form action="">
-                    <input type="text" id="name" placeholder="Name" required>
-                    <input type="email" id="email" placeholder="Email" required>
-                    <input type="radio" name="yes" id="radio">Yes, I will be there
-                    <input type="radio" name="yes" id="radio">Sorry, I can't come
-                    <select name="guest" id="guest" required>
-                        <option value="Number Of Guests" disabled selected>Number Of Guests</option>
-                        <option value="01">01</option>
-                        <option value="02">02</option>
-                        <option value="03">03</option>
-                        <option value="04">04</option>
-                        <option value="05">05</option>
-                    </select>
-                    <input type="text" id="name" placeholder="What Will You Be Attending" required>
-                    <select name="meal" id="meal" required>
-                        <option value="Meal Preferences" disabled selected>Meal Preference</option>
-                        <option value="Chicken">Chicken</option>
-                        <option value="Motton">Motton</option>
-                    </select>
-                    <button>RSVP</button>
-                </form>
-            </div>
-        </div>
-    </section>  -->
-    <!-- Form Section Ends Here -->
-
     <!-- Our Wedding Section Starts Here -->
     <section class="our-wedding container-xl">
         <div class="wedding-head">
-            <h4>Our Wedding</h4>
-            <h1>When & Where</h1>
+            <h4 data-aos="zoom-out" data-aos-duration="1000">Our Wedding</h4>
+            <h1 data-aos="zoom-in" data-aos-duration="1000">When & Where</h1>
         </div>
         <div class="wedding-card-row">
             <!-- Card 1 -->
@@ -453,52 +427,58 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
     <!-- Our Wedding Section Ends Here -->
 
     <!-- Blog Section Starts Here -->
     <section class="blog-bg">
-       <div class="blog container-xl">
+        <div class="blog container-xl">
             <div class="blog-head">
-                <h4>Our Blog</h4>
-                <h1>Our Latest Wedding News</h1>
+                <h4 data-aos="zoom-out" data-aos-duration="1000">Our Blog</h4>
+                <h1 data-aos="zoom-in" data-aos-duration="1000">Our Latest Wedding News</h1>
             </div>
             <div class="blog-card-row">
                 <!-- Card 1 -->
-                <div class="blog-card">
+                <div class="blog-card" data-aos="fade-up" data-aos-duration="1000">
                     <div class="blog-image">
                         <img src="assets/images/blog-1.jpg" alt="image" loading="lazy">
                     </div>
                     <div class="blog-desc">
                         <p>By Robertson Doe - 25 Sep 2023</p>
-                        <a href=""><h2>Top 10 wedding bouquet arranging idea.</h2></a>
+                        <a href="">
+                            <h2>Top 10 wedding bouquet arranging idea.</h2>
+                        </a>
                     </div>
                 </div>
                 <!-- Card 2 -->
-                <div class="blog-card">
+                <div class="blog-card" data-aos="fade-up" data-aos-duration="1200">
                     <div class="blog-image">
                         <img src="assets/images/blog-2.jpg" alt="image" loading="lazy">
                     </div>
                     <div class="blog-desc">
                         <p>By David Luis - 25 Sep 2023</p>
-                        <a href=""><h2>You must need a great photographer.</h2></a>
+                        <a href="">
+                            <h2>You must need a great photographer.</h2>
+                        </a>
                     </div>
                 </div>
                 <!-- Card 3 -->
-                <div class="blog-card">
+                <div class="blog-card" data-aos="fade-up" data-aos-duration="1400">
                     <div class="blog-image">
                         <img src="assets/images/blog-3.jpg" alt="image" loading="lazy">
                     </div>
                     <div class="blog-desc">
                         <p>By Aliana de - 25 Sep 2023</p>
-                        <a href=""><h2>Make sure your wedding gown is the best one.</h2></a>
+                        <a href="">
+                            <h2>Make sure your wedding gown is the best one.</h2>
+                        </a>
                     </div>
                 </div>
             </div>
-       </div>
+        </div>
 
-       <img src="assets/images/flower-3.svg" alt="flower" id="blog-icon-1">
-       <img src="assets/images/flower-4.svg" alt="flower" id="blog-icon-2">
+        <img src="assets/images/flower-3.svg" alt="flower" id="blog-icon-1" data-aos="fade-up" data-aos-duration="1000">
+        <img src="assets/images/flower-4.svg" alt="flower" id="blog-icon-2" data-aos="fade-up" data-aos-duration="1000">
     </section>
     <!-- Blog Section Ends Here -->
 
@@ -538,7 +518,7 @@
         <div class="copyright">
             <p>© Copyright 2024 | Fairytale Weddings | All right reserved.</p>
         </div>
-    </footer> 
+    </footer>
     <!-- Footer Ends Here -->
 
     <!-- Back To Top Button -->
@@ -551,12 +531,24 @@
 
     <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
 
+    <!-- AOS Animations Link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <!-- Lenis Scroll Link -->
-    <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script> 
+    <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
     <script>
         const lenis = new Lenis({
-        autoRaf: true,
-    });
+            duration: 0.5, // Adjust the duration for smooth scrolling
+            easing: (t) => t * (2 - t),
+        });
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
     </script>
 
     <!-- Bootstrap JS Link -->

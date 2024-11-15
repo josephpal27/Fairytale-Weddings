@@ -12,8 +12,8 @@ gsap.to(".banner-left img", {
     duration: 1.5,
     ease: "power2.out",
 });
-gsap.to(".banner-pill-img", {
-    scale: 1.05,
+gsap.to(".banner-pill-img img", {
+    scale: 1.07,
     duration: 5,
 });
 gsap.to(".banner-pill-img", {
@@ -209,19 +209,15 @@ blogCard.forEach((card, index) => {
 // ------------------------------------------------------------------------------------------------------------------------------------
 
 // Functionality For Back to Top Btn
-let backToTopDiv = document.querySelector(".back-to-top");
-let backToTopBtn = document.querySelector(".back-to-top .fa-arrow-up");
-
-backToTopBtn.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-  });
-});
-
+let backToTopButton = document.querySelector('.back-to-top');
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 200) {
-    backToTopDiv.classList.add("show");
-  } else {
-    backToTopDiv.classList.remove("show");
-  }
+if (window.scrollY > 200) {
+  backToTopButton.classList.add("show");
+} else {
+  backToTopButton.classList.remove("show");
+}
+});
+backToTopButton.addEventListener('click', (e) => {
+  e.preventDefault(); // Prevent default jump
+  lenis.scrollTo(0); // Smoothly scroll to the top
 });
