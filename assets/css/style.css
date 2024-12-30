@@ -146,6 +146,7 @@
   .banner-content .banner-rounded-img img{
     border-radius: 50%;
     position: absolute;
+    width: 260px;
   }
   .banner-content #banner-rounded-img-1{
     top: 3rem;
@@ -258,12 +259,14 @@
     top: 0;
     left: 0;
     z-index: 10;
+    width: 400px;
   }
   .bride-groom #groom-img{
     position: absolute;
     top: 0;
     right: 0;
     z-index: 10;
+    width: 400px;
   }
 
   .couple-desc{
@@ -587,7 +590,8 @@
     overflow: hidden;
   }
   .wedding-card-row .wedding-card img{
-    width: 100%;
+    /* width: 100%; */
+    width: 300px;
     border-radius: 50%;
     transition: all 0.2s ease;
   }
