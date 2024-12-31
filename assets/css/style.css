@@ -20,11 +20,12 @@
     background-repeat: no-repeat;
   }
   .top-banner{
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
+    padding: 0;
   }
   
   /* Navbar Styling Starts Here */
-  nav {
+  /* nav {
     padding: 0 !important;
     font-family: "Montserrat", sans-serif !important;
     font-weight: 500 !important;
@@ -89,17 +90,21 @@
       .nav-icon i:first-child{
         margin-right: 0;
   }
-}
+} */
+ nav{
+  padding-top: 0.7rem;
+  display: flex;
+  justify-content: center;
+ }
   /* Navbar Styling Ends Here */
   
   /* Banner Content Starts Here */
   .banner-content{
     display: flex;
     justify-content: space-between;
-    /* overflow: hidden; */
   }
   .banner-content .banner-left{
-    width: 42%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,89 +114,97 @@
     font-family: "Sail";
     color: #666f52;
     border: 1px solid #666f52;
-    padding: 1rem 2rem;
-    font-size: 3rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.8rem;
     opacity: 0;
-    transform: translateY(40px);
+    transform: translateY(80px);
   }
   .banner-content .banner-left h1{
     font-family: "Sail";
     color: #000;
-    font-size: 5rem;
+    font-size: 2.8rem;
+    text-align: center;
     opacity: 0;
-    transform: translateY(40px);
+    transform: translateY(80px);
   }
   .banner-content .banner-left p{
     font-family: "Jost", sans-serif;
     color: #5e5e5e;
-    font-size: 1.5rem;
-    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0;
     opacity: 0;
-    transform: translateY(40px);
+    transform: translateY(80px);
   }
   .banner-content .banner-left img{
     width: 200px;
-    margin-top: -2rem;
+    margin-top: 0;
     opacity: 0;
     scale: 0;
   }
   .banner-content .banner-right{
-    width: 58%;
+    width: 45%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
   }
   .banner-content .banner-rounded-img img{
     border-radius: 50%;
     position: absolute;
-    width: 260px;
+    width: 130px;
   }
   .banner-content #banner-rounded-img-1{
-    top: 3rem;
-    left: 0;
+    top: 0;
+    left: 6rem;
     z-index: 5;
     opacity: 0;
   }
   .banner-content #banner-rounded-img-2{
-    bottom: 0;
-    right: 0;
+    bottom: 5rem;
+    right: 6.5rem;
     z-index: 5;
     opacity: 0;
   }
   .banner-content .banner-pill-img{
-    border-top-left-radius: 15rem;
-    border-top-right-radius: 15rem;
-    border-bottom-left-radius: 15rem;
-    border-bottom-right-radius: 15rem;
+    border-top-left-radius: 13rem;
+    border-top-right-radius: 13rem;
+    border-bottom-left-radius: 13rem;
+    border-bottom-right-radius: 13rem;
     overflow: hidden;
+    margin-top: -5rem;
   }
   .banner-content .banner-pill-img img{
     scale: 1;
+    width: 300px;
   }
   .banner-content .banner-flower img{
     position: absolute;
   }
   .banner-content .banner-flower #banner-flower-1{
-    top: 0;
-    right: -5.8rem;
+    top: 3rem;
+    right: 2rem;
     z-index: -1;
+    width: 200px;
   }
   .banner-content .banner-flower #banner-flower-2{
-    bottom: -4.8rem;
-    left: -5.9rem;
+    bottom: 4rem;
+    left: 3rem;
+    width: 220px;
+    transform: rotate(-15deg);
   }
   .banner-content .banner-wave img{
     position: absolute;
   }
   .banner-content .banner-wave #banner-wave-1{
-    top: 8rem;
-    left: 5rem;
+    top: 3rem;
+    left: 10rem;
+    width: 200px;
   }
   .banner-content .banner-wave #banner-wave-2{
-    bottom: 2rem;
-    left: 10rem;
+    bottom: 7rem;
+    left: 13rem;
+    width: 200px;
   }
   /* Banner Content Ends Here */
   /* Top Banner Ends Here */
@@ -203,6 +216,7 @@
      background-position: center;
      background-repeat: no-repeat;
      overflow: hidden;
+     margin-top: -2rem;
   }
   .couple{
      /* padding: 5rem 0; */
@@ -296,8 +310,10 @@
     top: 6rem;
     right: 0;
     border-radius: 56% 44% 51% 49% / 44% 50% 50% 56%;
-    background-color: #f1f3ee;
-    border: 0.3rem solid #a4a89d;
+    /* background-color: #f1f3ee;
+    border: 0.3rem solid #a4a89d; */
+    background-color: #faf2ef;
+    border: 0.3rem solid #e5d2c8;
   }
   #couple-desc-2{
     bottom: 6.5rem;
@@ -305,6 +321,7 @@
     border-radius: 56% 44% 60% 40% / 26% 29% 71% 74%;
     background-color: #faf2ef;
     border: 0.3rem solid #e5d2c8;
+    display: none;
   }
   /* Couple Section Ends Here */
 
@@ -313,6 +330,7 @@
     background-color: #f1f3ee;
     overflow: hidden;
     position: relative;
+    margin-top: -17rem;
   }
   .our-story{
     padding: 7rem 0 10rem 0;
