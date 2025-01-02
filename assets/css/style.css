@@ -480,7 +480,7 @@
     width: 92%;
     height: 94%;
     margin: 4% 4%;
-    background-color: #ffffffb4;
+    background-color: #ffffff75;
     position: absolute;
     top: 0;
     display: flex;
@@ -518,12 +518,14 @@
 
   .person-row{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 3.5rem;
   }
   .person-row .person-card{
     width: 23%;
     text-align: center;
+    margin-bottom: 2rem;
   }
   .person-row .person-card h2{
     font-family: "Sail";
@@ -556,20 +558,6 @@
   }
   /* Impotant Persons Section End Here */
 
-
-  /* Attending Form Section Starts Here */
-  /* .attending-bg{
-    background-color: #f1f3ee;
-    padding: 5rem 0;
-    min-height: 100vh;
-    background-image: url("../images/bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  } */
-  /* Attending Form Section Ends Here */
-
-
   /* Our Wedding Section Starts Here */
   .our-wedding{
     padding: 4rem 0;
@@ -590,7 +578,7 @@
     margin-top: 0.5rem;
   }
 
-  .wedding-card-row{
+  /* .wedding-card-row{
     margin-top: 3.5rem;
     display: flex;
     justify-content: space-between;
@@ -608,7 +596,6 @@
     overflow: hidden;
   }
   .wedding-card-row .wedding-card img{
-    /* width: 100%; */
     width: 300px;
     border-radius: 50%;
     transition: all 0.2s ease;
@@ -641,6 +628,59 @@
     color: #667151;
     font-size: 1.1rem;
     margin-top: 0.8rem;
+  } */
+  .contact{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .contact form{
+    margin-top: 3rem;
+    border: 10px solid #666f52;
+    padding: 2rem 2.5rem;
+  }
+  .contact label{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    color: #dbbead;
+    font-size: 1.2rem;
+  }
+  .contact .input-div input, .contact .input-div textarea, .contact .input-div select{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.6rem;
+    outline: none;
+    border: 2px solid #f3dfd4;
+    font-size: 0.9rem;
+    font-weight: 450;
+  }
+  .contact .input-div input:focus, .contact .input-div textarea:focus, .contact .input-div select:focus{
+    border: 2px solid #ddb49e;
+  }
+  .contact .input-div input::placeholder, .contact .input-div textarea::placeholder, .contact .input-div select::placeholder{
+    font-size: 0.9rem;
+    color: #aeaeae;
+  }
+  .contact .input-div select{
+    color: #aeaeae;
+  }
+  .contact .input-div select.active{
+    color: #000;
+  }
+  .contact form button{
+    width: 35%;
+    margin-left: 32.5%;
+    margin-top: 1rem;
+    padding: 0.4rem 0;
+    border: none;
+    background-color: #667151;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+  }
+  .contact form button:hover{
+    background-color: #4e583c;
   }
   /* Our Wedding Section Ends Here */
 
