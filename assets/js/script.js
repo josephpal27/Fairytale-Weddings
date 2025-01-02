@@ -254,5 +254,24 @@ backToTopButton.addEventListener('click', (e) => {
 });
 
 
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+// Footer Links Smooth Scroll
+let footerLeftLinks = document.querySelectorAll('.foot-left a');
+
+footerLeftLinks.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default navigation behavior
+    
+    const targetId = link.getAttribute('href'); // Get the href (e.g., #section)
+    const targetElement = document.querySelector(targetId); // Find the target element
+
+    if (targetElement) {
+      // Scroll to the target section using Lenis
+      lenis.scrollTo(targetElement);
+    }
+  });
+});
+
 
 

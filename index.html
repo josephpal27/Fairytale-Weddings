@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fairytale Weddings</title>
-    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/images/fav-icon.png" type="image/x-icon" />
     <!-- Bootstrap CSS Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
@@ -154,6 +154,8 @@
             </div>
 
         </div>
+        <img src="assets/images/couple-flower-left.svg" alt="image" id="couple-bg-flower-left">
+        <img src="assets/images/couple-flower-right.svg" alt="image" id="couple-bg-flower-right">
     </section>
     <!-- Couple Section Ends Here -->
 
@@ -391,7 +393,7 @@
     <!-- Impotant Persons Section Ends Here -->
 
     <!-- Our Wedding Section Starts Here -->
-    <section class="our-wedding container-xl">
+    <section class="our-wedding container-xl" id="contact">
         <div class="wedding-head">
             
             <h1 data-aos="zoom-in" data-aos-duration="1000">Contact Us</h1>
@@ -446,63 +448,70 @@
         </div> -->
         <div class="contact" data-aos="fade" data-aos-duration="1000">
             <form action="">
-                <div class="form-input">
-                    <label for="name">Your Name</label>
-                    <div class="input-div">
-                        <input type="text" id="name" name="name" placeholder="First Name">
-                        <input type="text" id="last-name" name="last_name" placeholder="Last Name">
+                <!-- Left -->
+                <div class="form-left">
+                    <div class="form-input">
+                        <label for="name">Your Name</label>
+                        <div class="input-div">
+                            <input type="text" id="name" name="name" placeholder="First Name" required>
+                            <input type="text" id="last-name" name="last_name" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="partners-name">Partner's Name</label>
+                        <div class="input-div">
+                            <input type="text" id="partners-name" name="partners_name" placeholder="First Name" required>
+                            <input type="text" id="partners-last-name" name="partners_last_name" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Email</label>
+                        <div class="input-div">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="phone">Phone</label>
+                        <div class="input-div">
+                            <input type="number" id="phone" name="phone" placeholder="Phone" required>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="address">Address</label>
+                        <div class="input-div">
+                            <textarea name="address" id="address" placeholder="Address"></textarea>
+                        </div>
                     </div>
                 </div>
-                <div class="form-input">
-                    <label for="partners-name">Partners Name</label>
-                    <div class="input-div">
-                        <input type="text" id="partners-name" name="partners_name" placeholder="Partners Name">
+                <!-- Right -->
+                <div class="form-right">
+                    <div class="form-input">
+                        <label for="reference">Where did you hear about us?</label>
+                        <div class="input-div">
+                            <select name="reference" id="reference">
+                                <option value="A Friend" selected>- A Friend</option>
+                                <option value="Online">- Online </option>
+                                <option value="Blog/Magazine">- Blog / Magazine</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div class="form-input">
-                    <label for="email">Email</label>
-                    <div class="input-div">
-                        <input type="email" id="email" name="email" placeholder="Email">
+                    <div class="form-input">
+                        <label for="form-story">We love stories!! Tell us yours</label>
+                        <div class="input-div">
+                            <textarea name="form-story" id="form-story" placeholder="Tell Your Story"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="form-input">
-                    <label for="phone">Phone</label>
-                    <div class="input-div">
-                        <input type="number" id="phone" name="phone" placeholder="Phone">
+                    <div class="form-input">
+                        <label for="functions">Tell us about your functions</label>
+                        <div class="input-div">
+                            <textarea name="functions" id="functions" placeholder="Tell Your Functions"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="form-input">
-                    <label for="address">Address</label>
-                    <div class="input-div">
-                        <textarea name="address" id="address" placeholder="Address"></textarea>
-                    </div>
-                </div>
-                <div class="form-input">
-                    <label for="reference">Where did you hear about us?</label>
-                    <div class="input-div">
-                        <select name="reference" id="reference">
-                            <option value="A Friend" selected>- A Friend</option>
-                            <option value="Online">- Online </option>
-                            <option value="Blog/Magazine">- Blog / Magazine</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-input">
-                    <label for="form-story">We love stories!! Tell us yours</label>
-                    <div class="input-div">
-                        <textarea name="form-story" id="form-story" placeholder="Tell Your Story"></textarea>
-                    </div>
-                </div>
-                <div class="form-input">
-                    <label for="functions">Tell us about your functions</label>
-                    <div class="input-div">
-                        <textarea name="functions" id="functions" placeholder="Tell Your Functions"></textarea>
-                    </div>
-                </div>
-                <div class="form-input">
-                    <label for="guests">How many guests are you expecting?</label>
-                    <div class="input-div">
-                        <input type="number" id="guests" name="guests" placeholder="Number of Guests">
+                    <div class="form-input">
+                        <label for="guests">How many guests are you expecting?</label>
+                        <div class="input-div">
+                            <input type="number" id="guests" name="guests" placeholder="Number of Guests">
+                        </div>
                     </div>
                 </div>
                 <button type="submit">SUBMIT</button>
@@ -512,7 +521,7 @@
     <!-- Our Wedding Section Ends Here -->
 
     <!-- Blog Section Starts Here -->
-    <section class="blog-bg">
+    <section class="blog-bg" id="blog">
         <div class="blog container-xl">
             <div class="blog-head">
                 <h4 data-aos="zoom-out" data-aos-duration="1000">Our Blog</h4>
@@ -570,9 +579,9 @@
             <div class="foot-left">
                 <h2>Links</h2>
                 <div class="box">
-                    <a href="#">About</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact</a>
+                    <a href="#about">About</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
             <!-- Center -->
@@ -599,6 +608,8 @@
         <div class="copyright">
             <p>© Copyright 2024 | Fairytale Weddings | All right reserved.</p>
         </div>
+        <img src="assets/images/footer-shape-1.svg" alt="image" id="footer-flower-1">
+        <img src="assets/images/footer-shape-2.svg" alt="image" id="footer-flower-2">
     </footer>
     <!-- Footer Ends Here -->
 
