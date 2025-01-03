@@ -51,20 +51,35 @@ body.addEventListener('mousemove', (e) => {
 // --------------------------------------------------------------------------------------------------------------------------------
 
 // Couple Section Animations
-gsap.to(".couple #couple-desc-1", {
+// gsap.to(".couple #couple-desc-1", {
 
-    scrollTrigger: {
-        trigger: ".couple",
-        scroller: 'body',
-        markers: false,
-        start: "top 70%",
-        end: "top -30%",
-        scrub: 2,
-    },
+//     scrollTrigger: {
+//         trigger: ".couple",
+//         scroller: 'body',
+//         markers: false,
+//         start: "top 70%",
+//         end: "top -30%",
+//         scrub: 2,
+//     },
 
-    left: "-50rem",
-    duration: 1,
-})
+//     left: "-50rem",
+//     duration: 1,
+// })
+
+if (window.innerWidth >= 768) {
+    gsap.to(".couple #couple-desc-1", {
+        scrollTrigger: {
+            trigger: ".couple",
+            scroller: 'body',
+            markers: false,
+            start: "top 70%",
+            end: "top -30%",
+            scrub: 2,
+        },
+        left: "-50rem",
+        duration: 1,
+    });
+}
 
 gsap.to(".couple #couple-desc-2", {
 
