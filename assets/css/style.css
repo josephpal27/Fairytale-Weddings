@@ -524,7 +524,7 @@
 }
 .couple-desc{
   padding: 3rem 1rem;
-  max-width: 350px;
+  max-width: auto;
 }
 .couple-desc h1{
   font-size: 1.5rem;
@@ -535,7 +535,8 @@
 }
 #couple-desc-1{
   top: 3rem;
-  right: 0.3rem;
+  right: 4%;
+  width: 92%;
 }
 .couple-bg #couple-bg-flower-left{
   bottom: 40%;
@@ -740,7 +741,7 @@
   
   @media screen and (max-width: 768px) {
     .our-story-bg{
-      margin-top: -14rem;
+      margin-top: -21rem;
     }
     .our-story{
       padding: 5rem 0 3rem 0;
@@ -1336,6 +1337,45 @@
       font-size: 1.8rem;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .blog-bg{
+      padding: 2rem 0 3rem 0;
+    }
+    .blog-head h1{
+      font-size: 1.6rem;
+    }
+    .blog-head h4{
+      font-size: 1.1rem;
+    }
+    .blog-head h1{
+      font-size: 1.6rem;
+    }
+    .blog-card-row{
+      margin-top: 1.5rem;
+      flex-direction: column;
+    }
+    .blog-card-row .blog-card{
+      width: 100%;
+      margin-bottom: 1.5rem;
+      border-radius: 7px;
+    }
+    .blog-card-row .blog-desc{
+      padding: 1.3rem 0.5rem;
+    }
+    .blog-card-row .blog-desc p{
+      font-size: 1rem;
+    }
+    .blog-card-row .blog-desc h2{
+      font-size: 1.3rem;
+    }
+    #blog-icon-1{
+      display: none;
+    }
+    #blog-icon-2{
+      display: none;
+    }
+  }
   /* Blog Section Ends Here */
 
   /* Footer Starts Here */
@@ -1470,6 +1510,60 @@
       width: 100px;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    footer{
+      padding-bottom: 0;
+    }
+    .foot-content{
+      flex-direction: column;
+      padding: 3rem 0 4rem 0;
+    }
+    .foot-left{
+      width: 100%;
+    }
+    .foot-right{
+      width: 100%;
+    }
+    .foot-center{
+      width: 100%;
+    }
+    .foot-content h2{
+      font-size: 1.4rem;
+    }
+    .foot-content a{
+      font-size: 0.9rem;
+    }
+    .foot-content p{
+      font-size: 0.8rem;
+    }
+    footer .box{
+      margin-top: 0.5rem;
+    }
+    .foot-right{
+      margin-top: 2rem;
+    }
+    .foot-right p{
+      margin-top: 0.3rem;
+    }
+    .foot-icon i{
+      width: 1.8rem;
+      height: 1.8rem;
+      line-height: 1.8rem;
+      font-size: 0.9rem;
+    }
+    .copyright p{
+      font-size: 0.7rem;
+      margin: 0.5rem 0;
+    }
+    footer #footer-flower-1{
+      bottom: 2.2rem;
+      width: 80px;
+    }
+    footer #footer-flower-2{
+      width: 75px;
+    }
+  }
   /* Footer Ends Here */
 
   /* Back to Top Section */
@@ -1505,6 +1599,14 @@
       width: 2rem;
       height: 2rem;
       padding-top: 7.5px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .back-to-top i{
+      font-size: 0.8rem;
+      width: 1.5rem;
+      height: 1.5rem;
+      padding-top: 5.5px;
     }
   }
 /* Back to Top Section */
