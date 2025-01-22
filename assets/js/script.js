@@ -208,25 +208,6 @@ gsap.to("#slide-2", {
 
 // ------------------------------------------------------------------------------------------------------------------------------------
 
-// Rounded Cards Hover Effect using Js
-// let roundedCard = document.querySelectorAll('.wedding-card');
-// let roundedCardImg = document.querySelectorAll('.wedding-card img');
-
-// roundedCard.forEach((card, index) => {
-//     card.addEventListener('mouseenter', () => {
-//         roundedCardImg[index].style.scale = '1.15';
-//         roundedCardImg[index].style.rotate = '3deg';
-//     });
-
-//     card.addEventListener('mouseleave', () => {
-//         roundedCardImg[index].style.scale = '1';
-//         roundedCardImg[index].style.rotate = '0deg';
-//     });
-// });
-
-
-// ------------------------------------------------------------------------------------------------------------------------------------
-
 // Contact Us Section Select Box Functionality
 let select = document.querySelector('.contact .input-div select');
 select.addEventListener('click', () => {

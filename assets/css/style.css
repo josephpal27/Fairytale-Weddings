@@ -23,72 +23,6 @@
   }
   
   /* Navbar Styling Starts Here */
-  /* nav {
-    padding: 0 !important;
-    font-family: "Montserrat", sans-serif !important;
-    font-weight: 500 !important;
-    z-index: 100;
-    border-bottom: 1px solid #d3d3d33b;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    background-color: #fff !important;
-  }
-  .navbar-nav {
-    text-align: center;
-  }
-  .navbar-nav .nav-link,
-  .navbar-brand,
-  .navbar-toggler-icon {
-    color: #000 !important;
-    font-weight: 600;
-    font-size: 1rem;
-  }
-  .nav-item {
-    padding: 1.8rem 0 1.3rem 0;
-    margin: 0 0.5rem;
-    transition: all 0.1s ease;
-  }
-  .nav-item.active,  .nav-item:hover{
-    border-bottom: 4px solid #666f52;
-    border-radius: 4px;
-  }
-  .navbar-nav .nav-link:hover {
-    color: #666f52 !important;
-  }
-
-  .nav-icon i{
-    font-size: 1.3rem;
-    color: #000;
-  }
-  .nav-icon i:first-child{
-    margin-right: 0.5rem;
-  }
-  
-  @media screen and (max-width: 992px) {
-    nav {
-      padding: 1rem 0 !important;
-    }
-    .navbar-nav {
-      justify-content: flex-start !important;
-      text-align: left !important;
-    }
-  }
-  
-  @media screen and (max-width: 650px) {
-    nav {
-      padding: 0.8rem 0 !important;
-    }
-    .nav-item {
-        text-align: center;
-      }
-      .nav-icon {
-        padding: 0 1rem;
-        display: flex;
-        justify-content: space-between;
-      }
-      .nav-icon i:first-child{
-        margin-right: 0;
-  }
-} */
  nav{
   padding-top: 0.7rem;
   display: flex;
@@ -1028,57 +962,6 @@
     margin-top: 0.5rem;
   }
 
-  /* .wedding-card-row{
-    margin-top: 3.5rem;
-    display: flex;
-    justify-content: space-between;
-  }
-  .wedding-card-row .wedding-card{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-  }
-  .wedding-card-row .wedding-card .card-image{
-    border-radius: 50%;
-    border: 1.2rem solid #f1f3ee;
-    overflow: hidden;
-  }
-  .wedding-card-row .wedding-card img{
-    width: 300px;
-    border-radius: 50%;
-    transition: all 0.2s ease;
-  }
-  .wedding-card-row .wedding-card .card-head{
-    background-color: #a6aa9c;
-    width: 83%;
-    margin-top: 2rem;
-    padding: 0.7rem 0 0.5rem 0;
-  }
-  .wedding-card-row .wedding-card .card-head h2{
-    color: #fff;
-    font-family: "Sail";
-    text-align: center;
-    font-size: 2.2rem;
-  }
-  .wedding-card-row .wedding-card .card-body{
-    margin-top: 1.5rem;
-    text-align: center;
-  }
-  .wedding-card-row .wedding-card .card-body p{
-    text-align: center;
-    font-family: "Jost", sans-serif;
-    color: #5a5a5a;
-    font-size: 1.17rem;
-  }
-  .wedding-card-row .wedding-card .card-body a{
-    text-align: center;
-    font-family: "Jost", sans-serif;
-    color: #667151;
-    font-size: 1.1rem;
-    margin-top: 0.8rem;
-  } */
   .contact{
     width: 75%;
     margin-left: 12.5%;
